@@ -1,0 +1,1750 @@
+{
+  "took" : 24,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 8,
+      "relation" : "eq"
+    },
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "cordio_tasks_prod_v6",
+        "_type" : "_doc",
+        "_id" : "2e0e5c1b-f9a3-4bbd-bd5f-c6705b2ac927",
+        "_score" : 1.0,
+        "_source" : {
+          "city" : "Haranpuri",
+          "name" : "Anjna Gawde",
+          "updatedAt" : "2024-03-13T09:28:10.704Z",
+          "submissionTime" : "2024-03-13T09:28:00.216Z",
+          "source" : "CUSTOM",
+          "latitude" : "20.3746131",
+          "submissionData" : [
+            {
+              "qid" : "Q00",
+              "question" : "गांव का  QR कोड को स्कैन करें |",
+              "code" : "qrcode",
+              "answer" : [
+                {
+                  "value" : "22_Chhattisgarh_381_Uttar Bastar Kanker_413_3349_Bhanupratappur_03349_447601_Haranpuri_447601_126096_Haanpatri_3659_Bhanupratappur"
+                }
+              ]
+            },
+            {
+              "qid" : "Q01",
+              "question" : "गांव में कुल कितने परिवार है?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "165"
+                }
+              ]
+            },
+            {
+              "qid" : "Q02",
+              "question" : "गांव में कितने परिवारों के पास सिचाई की सुविधा है?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "125"
+                }
+              ]
+            },
+            {
+              "qid" : "Q03",
+              "question" : "पिछले साल, गांव में कितने परिवार को खरीफ मौसम में सिचाई के लिए पानी से सम्बंधित समस्या थी ?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "100"
+                }
+              ]
+            },
+            {
+              "qid" : "Q04",
+              "question" : "पिछले साल, गांव में कितने परिवार को रबी  मौसम में सिचाई के लिए पानी से सम्बंधित समस्या थी?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "132"
+                }
+              ]
+            },
+            {
+              "qid" : "Q05",
+              "question" : "गांव में कितने परिवारो को पीने के लिए पानी से सम्बंधित समस्या है ?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "50"
+                }
+              ]
+            },
+            {
+              "qid" : "Q06",
+              "question" : "गांव में गर्मी के समय कुएं में ज़मीन के सतह  से करीबन कितने फ़ीट में पानी है ?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "3"
+                }
+              ]
+            },
+            {
+              "qid" : "Q07",
+              "question" : "आपके गांव का भू-जल स्तर करीबन  कितना है या अगर टूबवेल किया जाये तो करीबन कितना फ़ीट में पानी मिलता है ?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "300"
+                }
+              ]
+            },
+            {
+              "qid" : "Q08",
+              "question" : "आप के गाँव में कितने परिवारों के पास स्थाई आजीविका का स्रोत है?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "10"
+                }
+              ]
+            },
+            {
+              "qid" : "Q09",
+              "question" : "जब उपस्थिति अधिकतम हो तो बैठक की तस्वीर लें| (अधिकतम 3 फोटो)",
+              "code" : "capturePhoto",
+              "answer" : [
+                {
+                  "fileName" : "image1710322080210.jpeg",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/370cf3ce-39ff-4bba-86f8-4bcfcead84f4_image1710322080210.jpeg",
+                  "id" : "370cf3ce-39ff-4bba-86f8-4bcfcead84f4"
+                },
+                {
+                  "fileName" : "image1710322080210.jpeg",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/6154363a-5796-442e-963d-dac135142c37_image1710322080210.jpeg",
+                  "id" : "6154363a-5796-442e-963d-dac135142c37"
+                },
+                {
+                  "fileName" : "image1710322080210.jpeg",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/a801c2a5-957a-416e-9ff8-e9111b905865_image1710322080210.jpeg",
+                  "id" : "a801c2a5-957a-416e-9ff8-e9111b905865"
+                }
+              ]
+            },
+            {
+              "qid" : "Q11",
+              "question" : "उपस्थिति पंजी की तस्वीर लें |(अधिकतम 10 फोटो )",
+              "code" : "capturePhoto",
+              "answer" : [
+                {
+                  "fileName" : "image1710322080210.jpeg",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/d286c124-9bd0-4e14-91e2-34d32c3a4d19_image1710322080210.jpeg",
+                  "id" : "d286c124-9bd0-4e14-91e2-34d32c3a4d19"
+                },
+                {
+                  "fileName" : "image1710322080210.jpeg",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/35cd55ec-b42a-48b7-aa7a-79b9e5c65bad_image1710322080210.jpeg",
+                  "id" : "35cd55ec-b42a-48b7-aa7a-79b9e5c65bad"
+                }
+              ]
+            },
+            {
+              "qid" : "Q12",
+              "question" : "बैठक में कुल कितने लोग/प्रतिभागी उपस्थित थे?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "23"
+                }
+              ]
+            },
+            {
+              "qid" : "Q13",
+              "question" : "बैठक में कितनी महिला प्रतिभागी उपस्थित थीं?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "21"
+                }
+              ]
+            },
+            {
+              "qid" : "Q14",
+              "question" : "बैठक में कितने महिला समूह के प्रतिनिधि (ग्राम संगठन /स्वयं सहायता समूह /ग्राम पंचायत स्तरीय फेडरेशन) उपस्थित थे?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "21"
+                }
+              ]
+            },
+            {
+              "qid" : "Q15",
+              "question" : "बैठक में कितने पंचायतीराज प्रतिनिधि  उपस्थित थे?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "1"
+                }
+              ]
+            },
+            {
+              "qid" : "Q16",
+              "question" : "बैठक में कितने महिला पंचायतीराज प्रतिनिधि उपस्थित थे?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "1"
+                }
+              ]
+            }
+          ],
+          "state" : "Chhattisgarh",
+          "subDistrict" : "Bhanupratappur",
+          "topicId" : "263706666",
+          "country" : "India",
+          "submissionId" : "2e0e5c1b-f9a3-4bbd-bd5f-c6705b2ac927",
+          "isResubmitted" : false,
+          "longitude" : "81.259692",
+          "programName" : "Access to Water for Rejuvenating Rural Economy(AWARE) - Chhattisgarh",
+          "status" : "SUBMITTED",
+          "topicName" : "1.02 एकीकृत प्राकृतिक संसाधन प्रबंधन पर उन्मुखीकरण एवं जल एवं ज़मीन सम्बंधित संसाधन की स्तिथि- समुदाय की धारणा _Orientation on Integrated Natural Resource Management and voice of community on status of land and water resources",
+          "createdAt" : "2024-03-13T09:28:10.721Z",
+          "programId" : 198,
+          "createdBy" : "ab8f9ca6-1a55-4cc9-ad6e-0922c16c064f",
+          "formType" : "TASK",
+          "taskType" : "CUSTOM",
+          "taskName" : "1.02 एकीकृत प्राकृतिक संसाधन प्रबंधन पर उन्मुखीकरण एवं जल एवं ज़मीन सम्बंधित संसाधन की स्तिथि- समुदाय की धारणा _Orientation on Integrated Natural Resource Management and voice of community on status of land and water resources",
+          "originalSubmissionId" : "2e0e5c1b-f9a3-4bbd-bd5f-c6705b2ac927",
+          "userId" : "ab8f9ca6-1a55-4cc9-ad6e-0922c16c064f",
+          "district" : "North Bastar Kanker District",
+          "isFromCache" : false,
+          "taskId" : "90d47242-6554-42ca-a794-12b0096ad51d",
+          "pdfUrl" : "https://pda.socion.io/taskforms/90d47242-6554-42ca-a794-12b0096ad51d/2e0e5c1b-f9a3-4bbd-bd5f-c6705b2ac927.pdf"
+        }
+      },
+      {
+        "_index" : "cordio_tasks_prod_v6",
+        "_type" : "_doc",
+        "_id" : "e3b28d00-8cf6-49d1-91d5-0404c2bb4d5e",
+        "_score" : 1.0,
+        "_source" : {
+          "country" : "India",
+          "city" : "Pandripani",
+          "latitude" : "20.202709",
+          "source" : "CUSTOM",
+          "submissionTime" : "2024-03-14T09:36:00.695Z",
+          "isResubmitted" : false,
+          "createdAt" : "2024-03-15T06:52:52.318Z",
+          "taskType" : "CUSTOM",
+          "pdfUrl" : null,
+          "submissionId" : "e3b28d00-8cf6-49d1-91d5-0404c2bb4d5e",
+          "programName" : "Access to Water for Rejuvenating Rural Economy(AWARE) - Chhattisgarh",
+          "isFromCache" : false,
+          "state" : "Chhattisgarh",
+          "updatedAt" : "2024-03-15T06:52:52.299Z",
+          "longitude" : "81.0842001",
+          "formType" : "TASK",
+          "submissionData" : [
+            {
+              "code" : "qrcode",
+              "question" : "गांव का  QR कोड को स्कैन करें |",
+              "answer" : [
+                {
+                  "value" : "22_Chhattisgarh_381_Uttar Bastar Kanker_413_3349_Bhanupratappur_03349_447531_Pandripani_447531_126115_Pharaskot_3659_Bhanupratappur"
+                }
+              ],
+              "qid" : "Q00"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कुल कितने परिवार है?",
+              "answer" : [
+                {
+                  "value" : "80"
+                }
+              ],
+              "qid" : "Q01"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कितने परिवारों के पास सिचाई की सुविधा है?",
+              "answer" : [
+                {
+                  "value" : "40"
+                }
+              ],
+              "qid" : "Q02"
+            },
+            {
+              "code" : "numeric",
+              "question" : "पिछले साल, गांव में कितने परिवार को खरीफ मौसम में सिचाई के लिए पानी से सम्बंधित समस्या थी ?",
+              "answer" : [
+                {
+                  "value" : "50"
+                }
+              ],
+              "qid" : "Q03"
+            },
+            {
+              "code" : "numeric",
+              "question" : "पिछले साल, गांव में कितने परिवार को रबी  मौसम में सिचाई के लिए पानी से सम्बंधित समस्या थी?",
+              "answer" : [
+                {
+                  "value" : "06"
+                }
+              ],
+              "qid" : "Q04"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कितने परिवारो को पीने के लिए पानी से सम्बंधित समस्या है ?",
+              "answer" : [
+                {
+                  "value" : "60"
+                }
+              ],
+              "qid" : "Q05"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में गर्मी के समय कुएं में ज़मीन के सतह  से करीबन कितने फ़ीट में पानी है ?",
+              "answer" : [
+                {
+                  "value" : "3"
+                }
+              ],
+              "qid" : "Q06"
+            },
+            {
+              "code" : "numeric",
+              "question" : "आपके गांव का भू-जल स्तर करीबन  कितना है या अगर टूबवेल किया जाये तो करीबन कितना फ़ीट में पानी मिलता है ?",
+              "answer" : [
+                {
+                  "value" : "80"
+                }
+              ],
+              "qid" : "Q07"
+            },
+            {
+              "code" : "numeric",
+              "question" : "आप के गाँव में कितने परिवारों के पास स्थाई आजीविका का स्रोत है?",
+              "answer" : [
+                {
+                  "value" : "10"
+                }
+              ],
+              "qid" : "Q08"
+            },
+            {
+              "code" : "capturePhoto",
+              "question" : "जब उपस्थिति अधिकतम हो तो बैठक की तस्वीर लें| (अधिकतम 3 फोटो)",
+              "answer" : [
+                {
+                  "fileName" : "image1710408960686.jpeg",
+                  "id" : "53558af5-0847-43fd-a258-46c0d3615d0d",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/53558af5-0847-43fd-a258-46c0d3615d0d_image1710408960686.jpeg"
+                },
+                {
+                  "fileName" : "image1710408960686.jpeg",
+                  "id" : "00e5e4a4-104a-4dea-9246-2c8c7ecf4899",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/00e5e4a4-104a-4dea-9246-2c8c7ecf4899_image1710408960686.jpeg"
+                },
+                {
+                  "fileName" : "image1710408960686.jpeg",
+                  "id" : "8fb7ed0e-6f42-43b4-b478-094b176b8a5c",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/8fb7ed0e-6f42-43b4-b478-094b176b8a5c_image1710408960686.jpeg"
+                }
+              ],
+              "qid" : "Q09"
+            },
+            {
+              "code" : "capturePhoto",
+              "question" : "उपस्थिति पंजी की तस्वीर लें |(अधिकतम 10 फोटो )",
+              "answer" : [
+                {
+                  "fileName" : "image1710408960686.jpeg",
+                  "id" : "f5b12004-276d-4a08-85ff-f1d410f7ca7f",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/f5b12004-276d-4a08-85ff-f1d410f7ca7f_image1710408960686.jpeg"
+                },
+                {
+                  "fileName" : "image1710408960686.jpeg",
+                  "id" : "d1ba2b72-4d3e-4858-8b3b-e11e9ee6d1aa",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/d1ba2b72-4d3e-4858-8b3b-e11e9ee6d1aa_image1710408960686.jpeg"
+                },
+                {
+                  "fileName" : "image1710408960686.jpeg",
+                  "id" : "94cab0b1-6858-4ed5-87cf-528f72bc0865",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/94cab0b1-6858-4ed5-87cf-528f72bc0865_image1710408960686.jpeg"
+                },
+                {
+                  "fileName" : "image1710408960686.jpeg",
+                  "id" : "7bcbeedb-7165-426e-8b3f-55ebbf3192b5",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/7bcbeedb-7165-426e-8b3f-55ebbf3192b5_image1710408960686.jpeg"
+                }
+              ],
+              "qid" : "Q11"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कुल कितने लोग/प्रतिभागी उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "48"
+                }
+              ],
+              "qid" : "Q12"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितनी महिला प्रतिभागी उपस्थित थीं?",
+              "answer" : [
+                {
+                  "value" : "48"
+                }
+              ],
+              "qid" : "Q13"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने महिला समूह के प्रतिनिधि (ग्राम संगठन /स्वयं सहायता समूह /ग्राम पंचायत स्तरीय फेडरेशन) उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "48"
+                }
+              ],
+              "qid" : "Q14"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने पंचायतीराज प्रतिनिधि  उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "02"
+                }
+              ],
+              "qid" : "Q15"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने महिला पंचायतीराज प्रतिनिधि उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "02"
+                }
+              ],
+              "qid" : "Q16"
+            }
+          ],
+          "userId" : "25fd5a94-0453-43d9-8177-6d0f0bfe203a",
+          "topicId" : "263706666",
+          "createdBy" : "25fd5a94-0453-43d9-8177-6d0f0bfe203a",
+          "district" : "North Bastar Kanker District",
+          "name" : "Santlal Yadav",
+          "topicName" : "1.02 एकीकृत प्राकृतिक संसाधन प्रबंधन पर उन्मुखीकरण एवं जल एवं ज़मीन सम्बंधित संसाधन की स्तिथि- समुदाय की धारणा _Orientation on Integrated Natural Resource Management and voice of community on status of land and water resources",
+          "taskName" : "1.02 एकीकृत प्राकृतिक संसाधन प्रबंधन पर उन्मुखीकरण एवं जल एवं ज़मीन सम्बंधित संसाधन की स्तिथि- समुदाय की धारणा _Orientation on Integrated Natural Resource Management and voice of community on status of land and water resources",
+          "subDistrict" : "Bhanupratappur",
+          "originalSubmissionId" : "e3b28d00-8cf6-49d1-91d5-0404c2bb4d5e",
+          "programId" : 198,
+          "taskId" : "90d47242-6554-42ca-a794-12b0096ad51d",
+          "status" : "SUBMITTED"
+        }
+      },
+      {
+        "_index" : "cordio_tasks_prod_v6",
+        "_type" : "_doc",
+        "_id" : "cd2fb84c-0357-4b95-9271-9fc711c5c140",
+        "_score" : 1.0,
+        "_source" : {
+          "country" : "India",
+          "city" : "Faraskot",
+          "latitude" : "20.2067148",
+          "source" : "CUSTOM",
+          "submissionTime" : "2024-03-13T09:31:57.294Z",
+          "isResubmitted" : false,
+          "createdAt" : "2024-03-13T12:12:59.162Z",
+          "taskType" : "CUSTOM",
+          "pdfUrl" : null,
+          "submissionId" : "cd2fb84c-0357-4b95-9271-9fc711c5c140",
+          "programName" : "Access to Water for Rejuvenating Rural Economy(AWARE) - Chhattisgarh",
+          "isFromCache" : false,
+          "state" : "Chhattisgarh",
+          "updatedAt" : "2024-03-13T12:12:59.143Z",
+          "longitude" : "81.104035",
+          "formType" : "TASK",
+          "submissionData" : [
+            {
+              "code" : "qrcode",
+              "question" : "गांव का  QR कोड को स्कैन करें |",
+              "answer" : [
+                {
+                  "value" : "22_Chhattisgarh_381_Uttar Bastar Kanker_413_3349_Bhanupratappur_03349_447539_Faraskot_447539_126115_Pharaskot_3659_Bhanupratappur"
+                }
+              ],
+              "qid" : "Q00"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कुल कितने परिवार है?",
+              "answer" : [
+                {
+                  "value" : "132"
+                }
+              ],
+              "qid" : "Q01"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कितने परिवारों के पास सिचाई की सुविधा है?",
+              "answer" : [
+                {
+                  "value" : "14"
+                }
+              ],
+              "qid" : "Q02"
+            },
+            {
+              "code" : "numeric",
+              "question" : "पिछले साल, गांव में कितने परिवार को खरीफ मौसम में सिचाई के लिए पानी से सम्बंधित समस्या थी ?",
+              "answer" : [
+                {
+                  "value" : "118"
+                }
+              ],
+              "qid" : "Q03"
+            },
+            {
+              "code" : "numeric",
+              "question" : "पिछले साल, गांव में कितने परिवार को रबी  मौसम में सिचाई के लिए पानी से सम्बंधित समस्या थी?",
+              "answer" : [
+                {
+                  "value" : "7"
+                }
+              ],
+              "qid" : "Q04"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कितने परिवारो को पीने के लिए पानी से सम्बंधित समस्या है ?",
+              "answer" : [
+                {
+                  "value" : "80"
+                }
+              ],
+              "qid" : "Q05"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में गर्मी के समय कुएं में ज़मीन के सतह  से करीबन कितने फ़ीट में पानी है ?",
+              "answer" : [
+                {
+                  "value" : "2"
+                }
+              ],
+              "qid" : "Q06"
+            },
+            {
+              "code" : "numeric",
+              "question" : "आपके गांव का भू-जल स्तर करीबन  कितना है या अगर टूबवेल किया जाये तो करीबन कितना फ़ीट में पानी मिलता है ?",
+              "answer" : [
+                {
+                  "value" : "250"
+                }
+              ],
+              "qid" : "Q07"
+            },
+            {
+              "code" : "numeric",
+              "question" : "आप के गाँव में कितने परिवारों के पास स्थाई आजीविका का स्रोत है?",
+              "answer" : [
+                {
+                  "value" : "14"
+                }
+              ],
+              "qid" : "Q08"
+            },
+            {
+              "code" : "capturePhoto",
+              "question" : "जब उपस्थिति अधिकतम हो तो बैठक की तस्वीर लें| (अधिकतम 3 फोटो)",
+              "answer" : [
+                {
+                  "fileName" : "image1710322317281.jpeg",
+                  "id" : "0c447ff7-5306-4124-86a0-a733642a3465",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/0c447ff7-5306-4124-86a0-a733642a3465_image1710322317281.jpeg"
+                },
+                {
+                  "fileName" : "image1710322317282.jpeg",
+                  "id" : "ecbb2349-35f9-4523-89c6-e0e428f8d7ea",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/ecbb2349-35f9-4523-89c6-e0e428f8d7ea_image1710322317282.jpeg"
+                },
+                {
+                  "fileName" : "image1710322317282.jpeg",
+                  "id" : "4fde2aaa-7ac6-44d3-bc5f-5d025d6f28ef",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/4fde2aaa-7ac6-44d3-bc5f-5d025d6f28ef_image1710322317282.jpeg"
+                }
+              ],
+              "qid" : "Q09"
+            },
+            {
+              "code" : "capturePhoto",
+              "question" : "उपस्थिति पंजी की तस्वीर लें |(अधिकतम 10 फोटो )",
+              "answer" : [
+                {
+                  "fileName" : "image1710322317282.jpeg",
+                  "id" : "7c5bc453-2daa-4d16-b1f6-dc02665734d5",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/7c5bc453-2daa-4d16-b1f6-dc02665734d5_image1710322317282.jpeg"
+                },
+                {
+                  "fileName" : "image1710322317282.jpeg",
+                  "id" : "a3a2f6ca-6ee0-4b28-bf4a-e78c7ee23b3d",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/a3a2f6ca-6ee0-4b28-bf4a-e78c7ee23b3d_image1710322317282.jpeg"
+                },
+                {
+                  "fileName" : "image1710322317282.jpeg",
+                  "id" : "b3b881f0-c23e-4b71-a511-843db131136a",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/b3b881f0-c23e-4b71-a511-843db131136a_image1710322317282.jpeg"
+                }
+              ],
+              "qid" : "Q11"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कुल कितने लोग/प्रतिभागी उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "45"
+                }
+              ],
+              "qid" : "Q12"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितनी महिला प्रतिभागी उपस्थित थीं?",
+              "answer" : [
+                {
+                  "value" : "43"
+                }
+              ],
+              "qid" : "Q13"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने महिला समूह के प्रतिनिधि (ग्राम संगठन /स्वयं सहायता समूह /ग्राम पंचायत स्तरीय फेडरेशन) उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "13"
+                }
+              ],
+              "qid" : "Q14"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने पंचायतीराज प्रतिनिधि  उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "4"
+                }
+              ],
+              "qid" : "Q15"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने महिला पंचायतीराज प्रतिनिधि उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "2"
+                }
+              ],
+              "qid" : "Q16"
+            }
+          ],
+          "userId" : "cbba9c8a-63d3-4bfc-930b-06da84ed1232",
+          "topicId" : "263706666",
+          "createdBy" : "cbba9c8a-63d3-4bfc-930b-06da84ed1232",
+          "district" : "North Bastar Kanker District",
+          "name" : "Sangeeta Netam",
+          "topicName" : "1.02 एकीकृत प्राकृतिक संसाधन प्रबंधन पर उन्मुखीकरण एवं जल एवं ज़मीन सम्बंधित संसाधन की स्तिथि- समुदाय की धारणा _Orientation on Integrated Natural Resource Management and voice of community on status of land and water resources",
+          "taskName" : "1.02 एकीकृत प्राकृतिक संसाधन प्रबंधन पर उन्मुखीकरण एवं जल एवं ज़मीन सम्बंधित संसाधन की स्तिथि- समुदाय की धारणा _Orientation on Integrated Natural Resource Management and voice of community on status of land and water resources",
+          "subDistrict" : "Bhanupratappur",
+          "originalSubmissionId" : "cd2fb84c-0357-4b95-9271-9fc711c5c140",
+          "programId" : 198,
+          "taskId" : "90d47242-6554-42ca-a794-12b0096ad51d",
+          "status" : "SUBMITTED"
+        }
+      },
+      {
+        "_index" : "cordio_tasks_prod_v6",
+        "_type" : "_doc",
+        "_id" : "b08d09fc-c237-463c-b0f9-63d2fa676eb2",
+        "_score" : 1.0,
+        "_source" : {
+          "country" : "India",
+          "city" : "Shahkatta",
+          "latitude" : "20.2058833",
+          "source" : "CUSTOM",
+          "submissionTime" : "2024-03-17T09:26:55.165Z",
+          "isResubmitted" : false,
+          "createdAt" : "2024-03-17T09:28:08.990Z",
+          "taskType" : "CUSTOM",
+          "pdfUrl" : null,
+          "submissionId" : "b08d09fc-c237-463c-b0f9-63d2fa676eb2",
+          "programName" : "Access to Water for Rejuvenating Rural Economy(AWARE) - Chhattisgarh",
+          "isFromCache" : false,
+          "state" : "Chhattisgarh",
+          "updatedAt" : "2024-03-17T09:28:08.969Z",
+          "longitude" : "81.1287133",
+          "formType" : "TASK",
+          "submissionData" : [
+            {
+              "code" : "qrcode",
+              "question" : "गांव का  QR कोड को स्कैन करें |",
+              "answer" : [
+                {
+                  "value" : "22_Chhattisgarh_381_Uttar Bastar Kanker_413_3349_Bhanupratappur_03349_447540_Shahkatta_447540_126115_Pharaskot_3659_Bhanupratappur"
+                }
+              ],
+              "qid" : "Q00"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कुल कितने परिवार है?",
+              "answer" : [
+                {
+                  "value" : "119"
+                }
+              ],
+              "qid" : "Q01"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कितने परिवारों के पास सिचाई की सुविधा है?",
+              "answer" : [
+                {
+                  "value" : "2"
+                }
+              ],
+              "qid" : "Q02"
+            },
+            {
+              "code" : "numeric",
+              "question" : "पिछले साल, गांव में कितने परिवार को खरीफ मौसम में सिचाई के लिए पानी से सम्बंधित समस्या थी ?",
+              "answer" : [
+                {
+                  "value" : "2"
+                }
+              ],
+              "qid" : "Q03"
+            },
+            {
+              "code" : "numeric",
+              "question" : "पिछले साल, गांव में कितने परिवार को रबी  मौसम में सिचाई के लिए पानी से सम्बंधित समस्या थी?",
+              "answer" : [
+                {
+                  "value" : "0"
+                }
+              ],
+              "qid" : "Q04"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कितने परिवारो को पीने के लिए पानी से सम्बंधित समस्या है ?",
+              "answer" : [
+                {
+                  "value" : "0"
+                }
+              ],
+              "qid" : "Q05"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में गर्मी के समय कुएं में ज़मीन के सतह  से करीबन कितने फ़ीट में पानी है ?",
+              "answer" : [
+                {
+                  "value" : "40"
+                }
+              ],
+              "qid" : "Q06"
+            },
+            {
+              "code" : "numeric",
+              "question" : "आपके गांव का भू-जल स्तर करीबन  कितना है या अगर टूबवेल किया जाये तो करीबन कितना फ़ीट में पानी मिलता है ?",
+              "answer" : [
+                {
+                  "value" : "100"
+                }
+              ],
+              "qid" : "Q07"
+            },
+            {
+              "code" : "numeric",
+              "question" : "आप के गाँव में कितने परिवारों के पास स्थाई आजीविका का स्रोत है?",
+              "answer" : [
+                {
+                  "value" : "6"
+                }
+              ],
+              "qid" : "Q08"
+            },
+            {
+              "code" : "capturePhoto",
+              "question" : "जब उपस्थिति अधिकतम हो तो बैठक की तस्वीर लें| (अधिकतम 3 फोटो)",
+              "answer" : [
+                {
+                  "fileName" : "image1710667615145.jpeg",
+                  "id" : "872ad005-8bf7-432a-b221-3f6a675c6278",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/872ad005-8bf7-432a-b221-3f6a675c6278_image1710667615145.jpeg"
+                },
+                {
+                  "fileName" : "image1710667615145.jpeg",
+                  "id" : "729dc246-3dc2-410d-9247-5d0259744bd3",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/729dc246-3dc2-410d-9247-5d0259744bd3_image1710667615145.jpeg"
+                },
+                {
+                  "fileName" : "image1710667615145.jpeg",
+                  "id" : "af0e521c-498f-4155-9db9-02f16fdfa6fa",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/af0e521c-498f-4155-9db9-02f16fdfa6fa_image1710667615145.jpeg"
+                }
+              ],
+              "qid" : "Q09"
+            },
+            {
+              "code" : "capturePhoto",
+              "question" : "उपस्थिति पंजी की तस्वीर लें |(अधिकतम 10 फोटो )",
+              "answer" : [
+                {
+                  "fileName" : "image1710667615145.jpeg",
+                  "id" : "f9f35558-be67-4097-8ef5-4b33f055f53a",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/f9f35558-be67-4097-8ef5-4b33f055f53a_image1710667615145.jpeg"
+                },
+                {
+                  "fileName" : "image1710667615145.jpeg",
+                  "id" : "b14d865e-454d-462c-bec6-ffa37024491c",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/b14d865e-454d-462c-bec6-ffa37024491c_image1710667615145.jpeg"
+                }
+              ],
+              "qid" : "Q11"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कुल कितने लोग/प्रतिभागी उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "22"
+                }
+              ],
+              "qid" : "Q12"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितनी महिला प्रतिभागी उपस्थित थीं?",
+              "answer" : [
+                {
+                  "value" : "20"
+                }
+              ],
+              "qid" : "Q13"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने महिला समूह के प्रतिनिधि (ग्राम संगठन /स्वयं सहायता समूह /ग्राम पंचायत स्तरीय फेडरेशन) उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "3"
+                }
+              ],
+              "qid" : "Q14"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने पंचायतीराज प्रतिनिधि  उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "1"
+                }
+              ],
+              "qid" : "Q15"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने महिला पंचायतीराज प्रतिनिधि उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "1"
+                }
+              ],
+              "qid" : "Q16"
+            }
+          ],
+          "userId" : "e9be90ab-984c-4256-b7c1-d574f0b41e7f",
+          "topicId" : "263706666",
+          "createdBy" : "e9be90ab-984c-4256-b7c1-d574f0b41e7f",
+          "district" : "North Bastar Kanker District",
+          "name" : "Santila",
+          "topicName" : "1.02 एकीकृत प्राकृतिक संसाधन प्रबंधन पर उन्मुखीकरण एवं जल एवं ज़मीन सम्बंधित संसाधन की स्तिथि- समुदाय की धारणा _Orientation on Integrated Natural Resource Management and voice of community on status of land and water resources",
+          "taskName" : "1.02 एकीकृत प्राकृतिक संसाधन प्रबंधन पर उन्मुखीकरण एवं जल एवं ज़मीन सम्बंधित संसाधन की स्तिथि- समुदाय की धारणा _Orientation on Integrated Natural Resource Management and voice of community on status of land and water resources",
+          "subDistrict" : "Bhanupratappur",
+          "originalSubmissionId" : "b08d09fc-c237-463c-b0f9-63d2fa676eb2",
+          "programId" : 198,
+          "taskId" : "90d47242-6554-42ca-a794-12b0096ad51d",
+          "status" : "SUBMITTED"
+        }
+      },
+      {
+        "_index" : "cordio_tasks_prod_v6",
+        "_type" : "_doc",
+        "_id" : "61ac8f1d-1bf2-4b22-a44d-0d44c44dfbb0",
+        "_score" : 1.0,
+        "_source" : {
+          "country" : "India",
+          "city" : "Bhaisakanhar",
+          "latitude" : "20.3688357",
+          "source" : "CUSTOM",
+          "submissionTime" : "2024-03-13T07:38:26.838Z",
+          "isResubmitted" : false,
+          "createdAt" : "2024-03-13T07:38:36.339Z",
+          "taskType" : "CUSTOM",
+          "pdfUrl" : null,
+          "submissionId" : "61ac8f1d-1bf2-4b22-a44d-0d44c44dfbb0",
+          "programName" : "Access to Water for Rejuvenating Rural Economy(AWARE) - Chhattisgarh",
+          "isFromCache" : false,
+          "state" : "Chhattisgarh",
+          "updatedAt" : "2024-03-13T07:38:36.320Z",
+          "longitude" : "81.0520818",
+          "formType" : "TASK",
+          "submissionData" : [
+            {
+              "code" : "qrcode",
+              "question" : "गांव का  QR कोड को स्कैन करें |",
+              "answer" : [
+                {
+                  "value" : "22_Chhattisgarh_381_Uttar Bastar Kanker_413_3349_Bhanupratappur_03349_447594_Bhaisakanhar_447594_126081_Bhainsakanhar K_3659_Bhanupratappur"
+                }
+              ],
+              "qid" : "Q00"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कुल कितने परिवार है?",
+              "answer" : [
+                {
+                  "value" : "246"
+                }
+              ],
+              "qid" : "Q01"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कितने परिवारों के पास सिचाई की सुविधा है?",
+              "answer" : [
+                {
+                  "value" : "25"
+                }
+              ],
+              "qid" : "Q02"
+            },
+            {
+              "code" : "numeric",
+              "question" : "पिछले साल, गांव में कितने परिवार को खरीफ मौसम में सिचाई के लिए पानी से सम्बंधित समस्या थी ?",
+              "answer" : [
+                {
+                  "value" : "15"
+                }
+              ],
+              "qid" : "Q03"
+            },
+            {
+              "code" : "numeric",
+              "question" : "पिछले साल, गांव में कितने परिवार को रबी  मौसम में सिचाई के लिए पानी से सम्बंधित समस्या थी?",
+              "answer" : [
+                {
+                  "value" : "200"
+                }
+              ],
+              "qid" : "Q04"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कितने परिवारो को पीने के लिए पानी से सम्बंधित समस्या है ?",
+              "answer" : [
+                {
+                  "value" : "200"
+                }
+              ],
+              "qid" : "Q05"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में गर्मी के समय कुएं में ज़मीन के सतह  से करीबन कितने फ़ीट में पानी है ?",
+              "answer" : [
+                {
+                  "value" : "25"
+                }
+              ],
+              "qid" : "Q06"
+            },
+            {
+              "code" : "numeric",
+              "question" : "आपके गांव का भू-जल स्तर करीबन  कितना है या अगर टूबवेल किया जाये तो करीबन कितना फ़ीट में पानी मिलता है ?",
+              "answer" : [
+                {
+                  "value" : "200"
+                }
+              ],
+              "qid" : "Q07"
+            },
+            {
+              "code" : "numeric",
+              "question" : "आप के गाँव में कितने परिवारों के पास स्थाई आजीविका का स्रोत है?",
+              "answer" : [
+                {
+                  "value" : "10"
+                }
+              ],
+              "qid" : "Q08"
+            },
+            {
+              "code" : "capturePhoto",
+              "question" : "जब उपस्थिति अधिकतम हो तो बैठक की तस्वीर लें| (अधिकतम 3 फोटो)",
+              "answer" : [
+                {
+                  "fileName" : "image1710315506828.jpeg",
+                  "id" : "5d3bf083-f770-4925-b4e9-9f2b686ea489",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/5d3bf083-f770-4925-b4e9-9f2b686ea489_image1710315506828.jpeg"
+                },
+                {
+                  "fileName" : "image1710315506828.jpeg",
+                  "id" : "e5d27d75-67b9-4ae7-bf96-2fbedc241ba5",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/e5d27d75-67b9-4ae7-bf96-2fbedc241ba5_image1710315506828.jpeg"
+                },
+                {
+                  "fileName" : "image1710315506829.jpeg",
+                  "id" : "899b5f86-1bc2-4771-802f-e77b3214d0f3",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/899b5f86-1bc2-4771-802f-e77b3214d0f3_image1710315506829.jpeg"
+                }
+              ],
+              "qid" : "Q09"
+            },
+            {
+              "code" : "capturePhoto",
+              "question" : "उपस्थिति पंजी की तस्वीर लें |(अधिकतम 10 फोटो )",
+              "answer" : [
+                {
+                  "fileName" : "image1710315506829.jpeg",
+                  "id" : "526195d6-6551-4ea2-bc8c-692cb9766bd2",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/526195d6-6551-4ea2-bc8c-692cb9766bd2_image1710315506829.jpeg"
+                },
+                {
+                  "fileName" : "image1710315506829.jpeg",
+                  "id" : "5dcbf61e-9ef1-40b0-b770-809746529201",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/5dcbf61e-9ef1-40b0-b770-809746529201_image1710315506829.jpeg"
+                }
+              ],
+              "qid" : "Q11"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कुल कितने लोग/प्रतिभागी उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "10"
+                }
+              ],
+              "qid" : "Q12"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितनी महिला प्रतिभागी उपस्थित थीं?",
+              "answer" : [
+                {
+                  "value" : "10"
+                }
+              ],
+              "qid" : "Q13"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने महिला समूह के प्रतिनिधि (ग्राम संगठन /स्वयं सहायता समूह /ग्राम पंचायत स्तरीय फेडरेशन) उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "9"
+                }
+              ],
+              "qid" : "Q14"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने पंचायतीराज प्रतिनिधि  उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "1"
+                }
+              ],
+              "qid" : "Q15"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने महिला पंचायतीराज प्रतिनिधि उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "2"
+                }
+              ],
+              "qid" : "Q16"
+            }
+          ],
+          "userId" : "beed3cb6-bdac-4709-b2ba-30bb9c1049b2",
+          "topicId" : "263706666",
+          "createdBy" : "beed3cb6-bdac-4709-b2ba-30bb9c1049b2",
+          "district" : "North Bastar Kanker District",
+          "name" : "Sanjit kumsr",
+          "topicName" : "1.02 एकीकृत प्राकृतिक संसाधन प्रबंधन पर उन्मुखीकरण एवं जल एवं ज़मीन सम्बंधित संसाधन की स्तिथि- समुदाय की धारणा _Orientation on Integrated Natural Resource Management and voice of community on status of land and water resources",
+          "taskName" : "1.02 एकीकृत प्राकृतिक संसाधन प्रबंधन पर उन्मुखीकरण एवं जल एवं ज़मीन सम्बंधित संसाधन की स्तिथि- समुदाय की धारणा _Orientation on Integrated Natural Resource Management and voice of community on status of land and water resources",
+          "subDistrict" : "Bhanupratappur",
+          "originalSubmissionId" : "61ac8f1d-1bf2-4b22-a44d-0d44c44dfbb0",
+          "programId" : 198,
+          "taskId" : "90d47242-6554-42ca-a794-12b0096ad51d",
+          "status" : "SUBMITTED"
+        }
+      },
+      {
+        "_index" : "cordio_tasks_prod_v6",
+        "_type" : "_doc",
+        "_id" : "b61692e1-8014-4ea4-85ae-dd9fc55bdeb9",
+        "_score" : 1.0,
+        "_source" : {
+          "city" : "Marrampani",
+          "name" : "Prem kumar patel",
+          "updatedAt" : "2024-03-28T10:40:22.251Z",
+          "submissionTime" : "2024-03-28T09:23:18.616Z",
+          "source" : "CUSTOM",
+          "latitude" : "20.4634134",
+          "submissionData" : [
+            {
+              "qid" : "Q00",
+              "question" : "गांव का  QR कोड को स्कैन करें |",
+              "code" : "qrcode",
+              "answer" : [
+                {
+                  "value" : "22_Chhattisgarh_381_Uttar Bastar Kanker_413_3352_Narharpur_03352_447898_Marrampani_447898_126401_Marampani_3664_Narharpur"
+                }
+              ]
+            },
+            {
+              "qid" : "Q01",
+              "question" : "गांव में कुल कितने परिवार है?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "145"
+                }
+              ]
+            },
+            {
+              "qid" : "Q02",
+              "question" : "गांव में कितने परिवारों के पास सिचाई की सुविधा है?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "53"
+                }
+              ]
+            },
+            {
+              "qid" : "Q03",
+              "question" : "पिछले साल, गांव में कितने परिवार को खरीफ मौसम में सिचाई के लिए पानी से सम्बंधित समस्या थी ?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "15"
+                }
+              ]
+            },
+            {
+              "qid" : "Q04",
+              "question" : "पिछले साल, गांव में कितने परिवार को रबी  मौसम में सिचाई के लिए पानी से सम्बंधित समस्या थी?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "92"
+                }
+              ]
+            },
+            {
+              "qid" : "Q05",
+              "question" : "गांव में कितने परिवारो को पीने के लिए पानी से सम्बंधित समस्या है ?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "25"
+                }
+              ]
+            },
+            {
+              "qid" : "Q06",
+              "question" : "गांव में गर्मी के समय कुएं में ज़मीन के सतह  से करीबन कितने फ़ीट में पानी है ?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "12"
+                }
+              ]
+            },
+            {
+              "qid" : "Q07",
+              "question" : "आपके गांव का भू-जल स्तर करीबन  कितना है या अगर टूबवेल किया जाये तो करीबन कितना फ़ीट में पानी मिलता है ?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "200"
+                }
+              ]
+            },
+            {
+              "qid" : "Q08",
+              "question" : "आप के गाँव में कितने परिवारों के पास स्थाई आजीविका का स्रोत है?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "8"
+                }
+              ]
+            },
+            {
+              "qid" : "Q09",
+              "question" : "जब उपस्थिति अधिकतम हो तो बैठक की तस्वीर लें| (अधिकतम 3 फोटो)",
+              "code" : "capturePhoto",
+              "answer" : [
+                {
+                  "fileName" : "image1711617798612.jpeg",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/53bc16b7-30bf-446f-b361-128248de59a9_image1711617798612.jpeg",
+                  "id" : "53bc16b7-30bf-446f-b361-128248de59a9"
+                },
+                {
+                  "fileName" : "image1711617798612.jpeg",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/4126dfbe-5948-4ff0-b121-b356de6778a3_image1711617798612.jpeg",
+                  "id" : "4126dfbe-5948-4ff0-b121-b356de6778a3"
+                }
+              ]
+            },
+            {
+              "qid" : "Q11",
+              "question" : "उपस्थिति पंजी की तस्वीर लें |(अधिकतम 10 फोटो )",
+              "code" : "capturePhoto",
+              "answer" : [
+                {
+                  "fileName" : "image1711617798612.jpeg",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/246cab3e-a8d5-4c8c-9f14-a985704f90ff_image1711617798612.jpeg",
+                  "id" : "246cab3e-a8d5-4c8c-9f14-a985704f90ff"
+                },
+                {
+                  "fileName" : "image1711617798612.jpeg",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/6dafb3a7-d492-476c-99eb-835cc119ee5a_image1711617798612.jpeg",
+                  "id" : "6dafb3a7-d492-476c-99eb-835cc119ee5a"
+                }
+              ]
+            },
+            {
+              "qid" : "Q12",
+              "question" : "बैठक में कुल कितने लोग/प्रतिभागी उपस्थित थे?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "22"
+                }
+              ]
+            },
+            {
+              "qid" : "Q13",
+              "question" : "बैठक में कितनी महिला प्रतिभागी उपस्थित थीं?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "22"
+                }
+              ]
+            },
+            {
+              "qid" : "Q14",
+              "question" : "बैठक में कितने महिला समूह के प्रतिनिधि (ग्राम संगठन /स्वयं सहायता समूह /ग्राम पंचायत स्तरीय फेडरेशन) उपस्थित थे?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "5"
+                }
+              ]
+            },
+            {
+              "qid" : "Q15",
+              "question" : "बैठक में कितने पंचायतीराज प्रतिनिधि  उपस्थित थे?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "2"
+                }
+              ]
+            },
+            {
+              "qid" : "Q16",
+              "question" : "बैठक में कितने महिला पंचायतीराज प्रतिनिधि उपस्थित थे?",
+              "code" : "numeric",
+              "answer" : [
+                {
+                  "value" : "2"
+                }
+              ]
+            }
+          ],
+          "state" : "Chhattisgarh",
+          "subDistrict" : "Narharpur",
+          "topicId" : "263706666",
+          "country" : "India",
+          "submissionId" : "b61692e1-8014-4ea4-85ae-dd9fc55bdeb9",
+          "isResubmitted" : false,
+          "longitude" : "81.5811403",
+          "programName" : "Access to Water for Rejuvenating Rural Economy(AWARE) - Chhattisgarh",
+          "status" : "SUBMITTED",
+          "topicName" : "1.02 एकीकृत प्राकृतिक संसाधन प्रबंधन पर उन्मुखीकरण एवं जल एवं ज़मीन सम्बंधित संसाधन की स्तिथि- समुदाय की धारणा _Orientation on Integrated Natural Resource Management and voice of community on status of land and water resources",
+          "createdAt" : "2024-03-28T10:40:22.269Z",
+          "programId" : 198,
+          "createdBy" : "d88468ee-0020-4928-9478-32800ad68dfd",
+          "formType" : "TASK",
+          "taskType" : "CUSTOM",
+          "taskName" : "1.02 एकीकृत प्राकृतिक संसाधन प्रबंधन पर उन्मुखीकरण एवं जल एवं ज़मीन सम्बंधित संसाधन की स्तिथि- समुदाय की धारणा _Orientation on Integrated Natural Resource Management and voice of community on status of land and water resources",
+          "originalSubmissionId" : "b61692e1-8014-4ea4-85ae-dd9fc55bdeb9",
+          "userId" : "d88468ee-0020-4928-9478-32800ad68dfd",
+          "district" : "North Bastar Kanker District",
+          "isFromCache" : false,
+          "taskId" : "90d47242-6554-42ca-a794-12b0096ad51d",
+          "pdfUrl" : "https://pda.socion.io/taskforms/90d47242-6554-42ca-a794-12b0096ad51d/b61692e1-8014-4ea4-85ae-dd9fc55bdeb9.pdf"
+        }
+      },
+      {
+        "_index" : "cordio_tasks_prod_v6",
+        "_type" : "_doc",
+        "_id" : "74c9f4c0-0ebb-49eb-800a-cddd844b2006",
+        "_score" : 1.0,
+        "_source" : {
+          "country" : "India",
+          "city" : "Majiguda",
+          "latitude" : "18.9716767",
+          "source" : "CUSTOM",
+          "submissionTime" : "2024-03-19T10:44:53.507Z",
+          "isResubmitted" : false,
+          "createdAt" : "2024-03-19T10:45:02.257Z",
+          "taskType" : "CUSTOM",
+          "pdfUrl" : "https://pda.socion.io/taskforms/90d47242-6554-42ca-a794-12b0096ad51d/74c9f4c0-0ebb-49eb-800a-cddd844b2006.pdf",
+          "submissionId" : "74c9f4c0-0ebb-49eb-800a-cddd844b2006",
+          "programName" : "Access to Water for Rejuvenating Rural Economy(AWARE) - Chhattisgarh",
+          "isFromCache" : false,
+          "state" : "Chhattisgarh",
+          "updatedAt" : "2024-04-02T04:06:50.426Z",
+          "longitude" : "81.9267933",
+          "formType" : "TASK",
+          "submissionData" : [
+            {
+              "code" : "qrcode",
+              "question" : "गांव का  QR कोड को स्कैन करें |",
+              "answer" : [
+                {
+                  "value" : "22_Chhattisgarh_374_Bastar_414_3366_Darbha_03366_449604_Gadamguda_449604_121989_Chingpal_3594_Darbha"
+                }
+              ],
+              "qid" : "Q00"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कुल कितने परिवार है?",
+              "answer" : [
+                {
+                  "value" : "170"
+                }
+              ],
+              "qid" : "Q01"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कितने परिवारों के पास सिचाई की सुविधा है?",
+              "answer" : [
+                {
+                  "value" : "6"
+                }
+              ],
+              "qid" : "Q02"
+            },
+            {
+              "code" : "numeric",
+              "question" : "पिछले साल, गांव में कितने परिवार को खरीफ मौसम में सिचाई के लिए पानी से सम्बंधित समस्या थी ?",
+              "answer" : [
+                {
+                  "value" : "12"
+                }
+              ],
+              "qid" : "Q03"
+            },
+            {
+              "code" : "numeric",
+              "question" : "पिछले साल, गांव में कितने परिवार को रबी  मौसम में सिचाई के लिए पानी से सम्बंधित समस्या थी?",
+              "answer" : [
+                {
+                  "value" : "164"
+                }
+              ],
+              "qid" : "Q04"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कितने परिवारो को पीने के लिए पानी से सम्बंधित समस्या है ?",
+              "answer" : [
+                {
+                  "value" : "65"
+                }
+              ],
+              "qid" : "Q05"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में गर्मी के समय कुएं में ज़मीन के सतह  से करीबन कितने फ़ीट में पानी है ?",
+              "answer" : [
+                {
+                  "value" : "75"
+                }
+              ],
+              "qid" : "Q06"
+            },
+            {
+              "code" : "numeric",
+              "question" : "आपके गांव का भू-जल स्तर करीबन  कितना है या अगर टूबवेल किया जाये तो करीबन कितना फ़ीट में पानी मिलता है ?",
+              "answer" : [
+                {
+                  "value" : "350"
+                }
+              ],
+              "qid" : "Q07"
+            },
+            {
+              "code" : "numeric",
+              "question" : "आप के गाँव में कितने परिवारों के पास स्थाई आजीविका का स्रोत है?",
+              "answer" : [
+                {
+                  "value" : "25"
+                }
+              ],
+              "qid" : "Q08"
+            },
+            {
+              "code" : "capturePhoto",
+              "question" : "जब उपस्थिति अधिकतम हो तो बैठक की तस्वीर लें| (अधिकतम 3 फोटो)",
+              "answer" : [
+                {
+                  "fileName" : "image1710845093497.jpeg",
+                  "id" : "28582a54-117e-4dab-91aa-1cb989381208",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/28582a54-117e-4dab-91aa-1cb989381208_image1710845093497.jpeg"
+                },
+                {
+                  "fileName" : "image1710845093497.jpeg",
+                  "id" : "85acc00f-5983-485c-91d2-d10ac920eff7",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/85acc00f-5983-485c-91d2-d10ac920eff7_image1710845093497.jpeg"
+                }
+              ],
+              "qid" : "Q09"
+            },
+            {
+              "code" : "capturePhoto",
+              "question" : "उपस्थिति पंजी की तस्वीर लें |(अधिकतम 10 फोटो )",
+              "answer" : [
+                {
+                  "fileName" : "image1710845093497.jpeg",
+                  "id" : "357a92b1-a41b-465c-95f6-f9cea5e9f77a",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/357a92b1-a41b-465c-95f6-f9cea5e9f77a_image1710845093497.jpeg"
+                },
+                {
+                  "fileName" : "image1710845093497.jpeg",
+                  "id" : "13af6064-b2c0-4c36-a58c-183a6694b118",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/13af6064-b2c0-4c36-a58c-183a6694b118_image1710845093497.jpeg"
+                }
+              ],
+              "qid" : "Q11"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कुल कितने लोग/प्रतिभागी उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "24"
+                }
+              ],
+              "qid" : "Q12"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितनी महिला प्रतिभागी उपस्थित थीं?",
+              "answer" : [
+                {
+                  "value" : "23"
+                }
+              ],
+              "qid" : "Q13"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने महिला समूह के प्रतिनिधि (ग्राम संगठन /स्वयं सहायता समूह /ग्राम पंचायत स्तरीय फेडरेशन) उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "4"
+                }
+              ],
+              "qid" : "Q14"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने पंचायतीराज प्रतिनिधि  उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "1"
+                }
+              ],
+              "qid" : "Q15"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने महिला पंचायतीराज प्रतिनिधि उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "1"
+                }
+              ],
+              "qid" : "Q16"
+            }
+          ],
+          "userId" : "e83d0b6b-637a-4c30-b84a-504eaa4a470e",
+          "topicId" : "263706666",
+          "createdBy" : "e83d0b6b-637a-4c30-b84a-504eaa4a470e",
+          "district" : "Bastar District",
+          "name" : "Lalit Kumar ",
+          "topicName" : "1.02 एकीकृत प्राकृतिक संसाधन प्रबंधन पर उन्मुखीकरण एवं जल एवं ज़मीन सम्बंधित संसाधन की स्तिथि- समुदाय की धारणा _Orientation on Integrated Natural Resource Management and voice of community on status of land and water resources",
+          "taskName" : "1.02 एकीकृत प्राकृतिक संसाधन प्रबंधन पर उन्मुखीकरण एवं जल एवं ज़मीन सम्बंधित संसाधन की स्तिथि- समुदाय की धारणा _Orientation on Integrated Natural Resource Management and voice of community on status of land and water resources",
+          "subDistrict" : "Darbha",
+          "originalSubmissionId" : "74c9f4c0-0ebb-49eb-800a-cddd844b2006",
+          "programId" : 198,
+          "taskId" : "90d47242-6554-42ca-a794-12b0096ad51d",
+          "status" : "SUBMITTED"
+        }
+      },
+      {
+        "_index" : "cordio_tasks_prod_v6",
+        "_type" : "_doc",
+        "_id" : "432dfc06-9c77-4c9e-8fd5-21b5e142211c",
+        "_score" : 1.0,
+        "_source" : {
+          "country" : "India",
+          "city" : "Mader Konta",
+          "latitude" : "18.9376517",
+          "source" : "CUSTOM",
+          "submissionTime" : "2024-03-06T11:09:03.922Z",
+          "isResubmitted" : false,
+          "createdAt" : "2024-03-06T11:09:12.079Z",
+          "taskType" : "CUSTOM",
+          "pdfUrl" : "https://pda.socion.io/taskforms/90d47242-6554-42ca-a794-12b0096ad51d/432dfc06-9c77-4c9e-8fd5-21b5e142211c.pdf",
+          "submissionId" : "432dfc06-9c77-4c9e-8fd5-21b5e142211c",
+          "programName" : "Access to Water for Rejuvenating Rural Economy(AWARE) - Chhattisgarh",
+          "isFromCache" : false,
+          "state" : "Chhattisgarh",
+          "updatedAt" : "2024-04-02T04:06:53.285Z",
+          "longitude" : "81.861915",
+          "formType" : "TASK",
+          "submissionData" : [
+            {
+              "code" : "qrcode",
+              "question" : "गांव का  QR कोड को स्कैन करें |",
+              "answer" : [
+                {
+                  "value" : "22_Chhattisgarh_374_Bastar_414_3366_Darbha_03366_449596_Mader Konta_449596_121986_Chidpal_3594_Darbha"
+                }
+              ],
+              "qid" : "Q00"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कुल कितने परिवार है?",
+              "answer" : [
+                {
+                  "value" : "65"
+                }
+              ],
+              "qid" : "Q01"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कितने परिवारों के पास सिचाई की सुविधा है?",
+              "answer" : [
+                {
+                  "value" : "25"
+                }
+              ],
+              "qid" : "Q02"
+            },
+            {
+              "code" : "numeric",
+              "question" : "पिछले साल, गांव में कितने परिवार को खरीफ मौसम में सिचाई के लिए पानी से सम्बंधित समस्या थी ?",
+              "answer" : [
+                {
+                  "value" : "20"
+                }
+              ],
+              "qid" : "Q03"
+            },
+            {
+              "code" : "numeric",
+              "question" : "पिछले साल, गांव में कितने परिवार को रबी  मौसम में सिचाई के लिए पानी से सम्बंधित समस्या थी?",
+              "answer" : [
+                {
+                  "value" : "40"
+                }
+              ],
+              "qid" : "Q04"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में कितने परिवारो को पीने के लिए पानी से सम्बंधित समस्या है ?",
+              "answer" : [
+                {
+                  "value" : "57"
+                }
+              ],
+              "qid" : "Q05"
+            },
+            {
+              "code" : "numeric",
+              "question" : "गांव में गर्मी के समय कुएं में ज़मीन के सतह  से करीबन कितने फ़ीट में पानी है ?",
+              "answer" : [
+                {
+                  "value" : "25"
+                }
+              ],
+              "qid" : "Q06"
+            },
+            {
+              "code" : "numeric",
+              "question" : "आपके गांव का भू-जल स्तर करीबन  कितना है या अगर टूबवेल किया जाये तो करीबन कितना फ़ीट में पानी मिलता है ?",
+              "answer" : [
+                {
+                  "value" : "200"
+                }
+              ],
+              "qid" : "Q07"
+            },
+            {
+              "code" : "numeric",
+              "question" : "आप के गाँव में कितने परिवारों के पास स्थाई आजीविका का स्रोत है?",
+              "answer" : [
+                {
+                  "value" : "0"
+                }
+              ],
+              "qid" : "Q08"
+            },
+            {
+              "code" : "capturePhoto",
+              "question" : "जब उपस्थिति अधिकतम हो तो बैठक की तस्वीर लें| (अधिकतम 3 फोटो)",
+              "answer" : [
+                {
+                  "fileName" : "image1709723343906.jpeg",
+                  "id" : "883fcb45-f9dc-420e-ab7c-99fdfd44596d",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q09/883fcb45-f9dc-420e-ab7c-99fdfd44596d_image1709723343906.jpeg"
+                }
+              ],
+              "qid" : "Q09"
+            },
+            {
+              "code" : "capturePhoto",
+              "question" : "उपस्थिति पंजी की तस्वीर लें |(अधिकतम 10 फोटो )",
+              "answer" : [
+                {
+                  "fileName" : "image1709723343906.jpeg",
+                  "id" : "1bf67d35-f8ca-4545-baf3-c1fc4b5a7235",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/1bf67d35-f8ca-4545-baf3-c1fc4b5a7235_image1709723343906.jpeg"
+                },
+                {
+                  "fileName" : "image1709723343906.jpeg",
+                  "id" : "89b8d838-3207-43cc-89ee-af576ec29ea1",
+                  "url" : "https://prod-taskmicroservice.s3.amazonaws.com/prod-task-store/198/263706666/90d47242-6554-42ca-a794-12b0096ad51d/Q11/89b8d838-3207-43cc-89ee-af576ec29ea1_image1709723343906.jpeg"
+                }
+              ],
+              "qid" : "Q11"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कुल कितने लोग/प्रतिभागी उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "22"
+                }
+              ],
+              "qid" : "Q12"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितनी महिला प्रतिभागी उपस्थित थीं?",
+              "answer" : [
+                {
+                  "value" : "14"
+                }
+              ],
+              "qid" : "Q13"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने महिला समूह के प्रतिनिधि (ग्राम संगठन /स्वयं सहायता समूह /ग्राम पंचायत स्तरीय फेडरेशन) उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "1"
+                }
+              ],
+              "qid" : "Q14"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने पंचायतीराज प्रतिनिधि  उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "1"
+                }
+              ],
+              "qid" : "Q15"
+            },
+            {
+              "code" : "numeric",
+              "question" : "बैठक में कितने महिला पंचायतीराज प्रतिनिधि उपस्थित थे?",
+              "answer" : [
+                {
+                  "value" : "1"
+                }
+              ],
+              "qid" : "Q16"
+            }
+          ],
+          "userId" : "e83d0b6b-637a-4c30-b84a-504eaa4a470e",
+          "topicId" : "263706666",
+          "createdBy" : "e83d0b6b-637a-4c30-b84a-504eaa4a470e",
+          "district" : "Bastar District",
+          "name" : "Lalit Kumar ",
+          "topicName" : "1.02 एकीकृत प्राकृतिक संसाधन प्रबंधन पर उन्मुखीकरण एवं जल एवं ज़मीन सम्बंधित संसाधन की स्तिथि- समुदाय की धारणा _Orientation on Integrated Natural Resource Management and voice of community on status of land and water resources",
+          "taskName" : "1.02 एकीकृत प्राकृतिक संसाधन प्रबंधन पर उन्मुखीकरण एवं जल एवं ज़मीन सम्बंधित संसाधन की स्तिथि- समुदाय की धारणा _Orientation on Integrated Natural Resource Management and voice of community on status of land and water resources",
+          "subDistrict" : "Darbha",
+          "originalSubmissionId" : "432dfc06-9c77-4c9e-8fd5-21b5e142211c",
+          "programId" : 198,
+          "taskId" : "90d47242-6554-42ca-a794-12b0096ad51d",
+          "status" : "SUBMITTED"
+        }
+      }
+    ]
+  }
+}

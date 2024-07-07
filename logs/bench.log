@@ -1,0 +1,179 @@
+2024-07-03 16:01:36,203 DEBUG cd frappe-bench && python3 -m venv env
+2024-07-03 16:01:37,888 DEBUG cd frappe-bench && /home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-07-03 16:01:39,138 DEBUG cd frappe-bench && /home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet wheel
+2024-07-03 16:01:42,577 LOG Getting frappe
+2024-07-03 16:01:42,577 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2024-07-03 16:01:46,612 LOG Installing frappe
+2024-07-03 16:01:46,613 DEBUG cd /home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench && /home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench/apps/frappe 
+2024-07-03 16:02:04,089 DEBUG cd /home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench/apps/frappe && yarn install --check-files
+2024-07-03 16:02:19,840 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-03 16:02:19,840 DEBUG cd frappe-bench && bench build
+2024-07-03 16:02:19,895 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench build
+2024-07-03 16:02:28,515 LOG setting up backups
+2024-07-03 16:02:28,527 LOG backups were set up
+2024-07-03 16:02:28,527 INFO Bench frappe-bench initialized
+2024-07-03 16:03:29,863 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench new-site testsite
+2024-07-03 16:06:15,518 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench start
+2024-07-03 16:06:15,671 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench schedule
+2024-07-03 16:06:15,700 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench serve --port 8000
+2024-07-03 16:06:15,701 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench worker
+2024-07-03 16:06:15,714 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench watch
+2024-07-03 16:07:27,025 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench start
+2024-07-03 16:07:27,167 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench worker
+2024-07-03 16:07:27,174 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench watch
+2024-07-03 16:07:27,197 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench serve --port 8000
+2024-07-03 16:07:27,200 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench schedule
+2024-07-03 16:08:37,407 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench list-sites
+2024-07-03 16:09:00,432 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench frappe --help
+2024-07-03 16:09:20,352 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench list-sites
+2024-07-03 16:09:40,798 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site all list-sites
+2024-07-03 16:09:47,025 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench show-sites
+2024-07-03 16:10:39,932 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --help
+2024-07-03 16:11:02,073 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench use testsites
+2024-07-03 16:11:24,514 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench use testsite
+2024-07-03 16:11:31,550 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench start
+2024-07-03 16:11:31,689 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench watch
+2024-07-03 16:11:31,707 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench schedule
+2024-07-03 16:11:31,722 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench serve --port 8000
+2024-07-03 16:11:31,723 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench worker
+2024-07-03 18:00:01,593 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-03 18:00:01,596 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --verbose --site all backup
+2024-07-04 00:00:01,725 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --verbose --site all backup
+2024-07-04 00:00:01,742 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-04 10:27:44,337 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite add-to-hosts
+2024-07-04 10:28:02,121 INFO /usr/local/bin/bench start
+2024-07-04 10:28:56,031 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench start
+2024-07-04 10:29:37,636 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench start
+2024-07-04 10:34:17,822 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench start
+2024-07-04 10:34:17,968 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench serve --port 8000
+2024-07-04 10:34:17,975 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench schedule
+2024-07-04 10:34:18,021 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench watch
+2024-07-04 10:34:18,025 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench worker
+2024-07-04 10:36:05,717 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite add-to-hosts
+2024-07-04 12:00:01,587 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-04 12:00:01,590 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --verbose --site all backup
+2024-07-04 13:13:56,444 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite mariadb
+2024-07-04 13:19:44,169 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench ls
+2024-07-04 13:29:25,595 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench new-app rentals
+2024-07-04 13:29:25,597 LOG creating new app rentals
+2024-07-04 13:30:17,952 WARNING /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench new-app rentals executed with exit code 1
+2024-07-04 13:32:11,872 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench new-app rentals
+2024-07-04 13:32:11,874 LOG creating new app rentals
+2024-07-04 13:32:42,957 WARNING /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench new-app rentals executed with exit code 1
+2024-07-04 13:33:46,593 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench new-app rentals
+2024-07-04 13:33:46,595 LOG creating new app rentals
+2024-07-04 13:34:35,183 WARNING /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench new-app rentals executed with exit code 1
+2024-07-04 13:50:30,424 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench new-app rentals
+2024-07-04 13:50:30,426 LOG creating new app rentals
+2024-07-04 13:50:53,681 LOG Installing rentals
+2024-07-04 13:50:53,682 DEBUG cd /home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench && /home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench/apps/rentals 
+2024-07-04 13:50:54,760 DEBUG bench build --app rentals
+2024-07-04 13:50:54,824 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench build --app rentals
+2024-07-04 13:50:55,157 WARNING bench build --app rentals executed with exit code 1
+2024-07-04 13:50:55,157 WARNING /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench new-app rentals executed with exit code 1
+2024-07-04 13:57:46,741 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench new-app rentals
+2024-07-04 13:57:46,744 LOG creating new app rentals
+2024-07-04 13:57:49,506 WARNING /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench new-app rentals executed with exit code 1
+2024-07-04 13:57:57,437 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench new-app rentals
+2024-07-04 13:57:57,439 LOG creating new app rentals
+2024-07-04 13:58:31,048 LOG Installing rentals
+2024-07-04 13:58:31,048 DEBUG cd /home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench && /home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench/apps/rentals 
+2024-07-04 13:58:32,554 DEBUG bench build --app rentals
+2024-07-04 13:58:32,611 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench build --app rentals
+2024-07-04 13:58:33,419 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-04 14:00:40,024 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --sites testsite install-app rentals
+2024-07-04 14:00:48,272 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite install-app rentals
+2024-07-04 14:01:17,891 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench start
+2024-07-04 14:01:18,030 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench serve --port 8000
+2024-07-04 14:01:18,044 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench watch
+2024-07-04 14:01:18,065 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench worker
+2024-07-04 14:01:18,065 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench schedule
+2024-07-04 14:26:40,414 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite set-config developer-mode 1
+2024-07-04 14:37:52,022 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench new-app rentals
+2024-07-04 14:37:52,025 LOG creating new app rentals
+2024-07-04 14:39:28,181 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite set-config developer_mode 1
+2024-07-04 14:41:15,225 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite set-config developer_mode 1
+2024-07-04 14:43:48,694 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench start
+2024-07-04 14:43:48,835 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench schedule
+2024-07-04 14:43:48,853 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench watch
+2024-07-04 14:43:48,868 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench serve --port 8000
+2024-07-04 14:43:48,872 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench worker
+2024-07-04 14:49:30,760 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite set-config developer_mode 1
+2024-07-04 15:53:50,542 WARNING /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench new-app rentals executed with exit code 1
+2024-07-04 16:13:15,373 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite mariadb
+2024-07-04 16:13:39,334 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite mariadb
+2024-07-04 16:16:56,196 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite mariadb
+2024-07-04 17:17:16,536 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite console --autoreload
+2024-07-04 17:25:55,022 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite console --autoreload
+2024-07-04 17:29:44,001 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench set-config -g server_script_enabled 1
+2024-07-04 17:32:26,058 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite console
+2024-07-04 18:00:01,502 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-04 18:00:01,503 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --verbose --site all backup
+2024-07-04 18:35:48,225 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench start
+2024-07-04 18:35:48,365 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench serve --port 8000
+2024-07-04 18:35:48,368 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench worker
+2024-07-04 18:35:48,399 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench schedule
+2024-07-04 18:35:48,400 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench watch
+2024-07-04 18:36:29,931 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench start
+2024-07-04 18:36:30,070 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench worker
+2024-07-04 18:36:30,072 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench watch
+2024-07-04 18:36:30,104 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench serve --port 8000
+2024-07-04 18:36:30,107 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench schedule
+2024-07-04 18:37:55,395 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench start
+2024-07-04 18:37:55,535 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench serve --port 8000
+2024-07-04 18:37:55,551 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench worker
+2024-07-04 18:37:55,569 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench schedule
+2024-07-04 18:37:55,569 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench watch
+2024-07-04 18:50:16,581 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite mariadb
+2024-07-04 19:01:37,216 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite migrate
+2024-07-04 19:04:25,690 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite migrate
+2024-07-04 19:05:22,119 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite migrate
+2024-07-04 19:06:42,290 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite migrate
+2024-07-04 19:07:20,189 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite migrate
+2024-07-04 19:07:57,105 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite migrate
+2024-07-04 19:08:09,002 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite migrate
+2024-07-04 19:09:58,953 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite migrate
+2024-07-05 00:00:01,811 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-05 00:00:01,816 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --verbose --site all backup
+2024-07-05 00:34:20,679 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite console
+2024-07-05 00:35:52,085 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite console
+2024-07-05 00:41:57,088 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite console
+2024-07-05 12:00:01,908 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-05 12:00:01,909 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --verbose --site all backup
+2024-07-05 14:47:06,681 INFO /usr/local/bin/bench -site testsite console
+2024-07-05 14:47:11,796 INFO /usr/local/bin/bench --site testsite console
+2024-07-05 14:54:03,907 INFO /usr/local/bin/bench --site testsite console --autoreload
+2024-07-05 14:56:48,936 INFO /usr/local/bin/bench --site testsite console --autoreload
+2024-07-05 15:41:07,788 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench add-frappe-ui
+2024-07-05 15:45:37,945 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench get-app https://github.com/NagariaHussain/doppio
+2024-07-05 15:45:37,949 LOG Getting doppio
+2024-07-05 15:45:37,949 DEBUG cd ./apps && git clone https://github.com/NagariaHussain/doppio  --depth 1 --origin upstream
+2024-07-05 15:45:40,899 LOG Installing doppio
+2024-07-05 15:45:40,900 DEBUG cd /home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench && /home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench/apps/doppio 
+2024-07-05 15:45:41,660 DEBUG cd /home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench/apps/doppio && yarn install --check-files
+2024-07-05 15:45:55,129 DEBUG bench build --app doppio
+2024-07-05 15:45:55,194 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench build --app doppio
+2024-07-05 15:45:56,080 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-07-05 15:46:12,479 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench add-frappe-ui
+2024-07-05 16:00:05,674 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench start
+2024-07-05 16:00:05,832 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench watch
+2024-07-05 16:00:05,855 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench serve --port 8000
+2024-07-05 16:00:05,872 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench worker
+2024-07-05 16:00:05,872 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench schedule
+2024-07-05 18:00:01,862 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --verbose --site all backup
+2024-07-05 18:00:01,867 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-06 00:00:01,771 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-06 00:00:01,774 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --verbose --site all backup
+2024-07-06 13:36:55,741 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench start
+2024-07-06 13:36:55,903 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench serve --port 8000
+2024-07-06 13:36:55,904 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench watch
+2024-07-06 13:36:55,953 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench worker
+2024-07-06 13:36:55,954 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench schedule
+2024-07-06 14:09:17,596 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite mariadb
+2024-07-06 14:15:12,750 INFO /usr/local/bin/bench --site testsite console
+2024-07-07 00:17:22,787 INFO /usr/local/bin/bench --site testsite migrate
+2024-07-07 00:17:34,902 INFO /usr/local/bin/bench --site testsite migrate
+2024-07-07 00:52:16,080 INFO /usr/local/bin/bench --site testsite migrate
+2024-07-07 01:42:02,758 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite --with-files
+2024-07-07 01:45:26,348 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite --with-files
+2024-07-07 01:45:50,169 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite --with-files

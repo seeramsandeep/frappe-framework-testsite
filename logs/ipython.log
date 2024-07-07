@@ -1,0 +1,51 @@
+2024-07-04 17:25:53,493 INFO ipython === bench console session ===
+2024-07-04 17:25:53,493 INFO ipython d = frappe.db.get_doc("Driver", "DR-0001")
+2024-07-04 17:25:53,493 INFO ipython d = frappe.get_doc("Driver", "DR-0001")
+2024-07-04 17:25:53,493 INFO ipython d.last_name
+2024-07-04 17:25:53,493 INFO ipython d.first_name
+2024-07-04 17:25:53,493 INFO ipython frappe.new_doc("Driver")
+2024-07-04 17:25:53,493 INFO ipython d = frappe.new_doc("Driver")
+2024-07-04 17:25:53,493 INFO ipython d.first_name = "Seeram"
+2024-07-04 17:25:53,493 INFO ipython d.last_name = "Sandeep"
+2024-07-04 17:25:53,493 INFO ipython d.license_number = "AP4523KL"
+2024-07-04 17:25:53,493 INFO ipython d.phone_number = "+91 1478523690"
+2024-07-04 17:25:53,493 INFO ipython d.save()
+2024-07-04 17:25:53,493 INFO ipython frappe.db.commit()
+2024-07-04 17:25:53,493 INFO ipython db.send_alert()
+2024-07-04 17:25:53,493 INFO ipython d.send_alert()
+2024-07-04 17:25:53,494 INFO ipython === session end ===
+2024-07-04 17:28:54,540 INFO ipython === bench console session ===
+2024-07-04 17:28:54,540 INFO ipython === session end ===
+2024-07-04 17:37:41,043 INFO ipython === bench console session ===
+2024-07-04 17:37:41,043 INFO ipython file = frappe.get_doc("File", "7cfdde3c7")
+2024-07-04 17:37:41,043 INFO ipython file = frappe.get_doc("File", "782cc6cf1c")
+2024-07-04 17:37:41,043 INFO ipython file.get_content()
+2024-07-04 17:37:41,043 INFO ipython === session end ===
+2024-07-05 00:38:39,142 INFO ipython === bench console session ===
+2024-07-05 00:38:39,142 INFO ipython ride = frappe.get_doc("Ride Booking", "ajf5suv6qt");
+2024-07-05 00:38:39,142 INFO ipython exit;
+2024-07-05 00:38:39,142 INFO ipython === session end ===
+2024-07-05 00:48:21,225 INFO ipython === bench console session ===
+2024-07-05 00:48:21,225 INFO ipython ride = frappe.get_doc("Ride Booking", "ajf5suv6qt");
+2024-07-05 00:48:21,225 INFO ipython ride.vehicle;
+2024-07-05 00:48:21,225 INFO ipython ride.vehicle
+2024-07-05 00:48:21,225 INFO ipython ride.order
+2024-07-05 00:48:21,225 INFO ipython ride.items
+2024-07-05 00:48:21,226 INFO ipython for item in ride.items:
+    print(item.source, item.destination, item.distance)
+    
+2024-07-05 00:48:21,226 INFO ipython === session end ===
+2024-07-05 14:50:54,893 INFO ipython === bench console session ===
+2024-07-05 14:50:54,893 INFO ipython frappe.get_all("Ride Booking", fields=["total_amount", "vehicle"])
+2024-07-05 14:50:54,893 INFO ipython frappe.get_all("Ride Booking", fields=["total_amount", "vehicle"], filters={"docstatus": 1})
+2024-07-05 14:50:54,893 INFO ipython === session end ===
+2024-07-05 14:56:46,888 INFO ipython === bench console session ===
+2024-07-05 14:56:46,888 INFO ipython frappe.get_all("Ride Booking", fields=["total_amount", "vehicle"], filters={"docstatus": 1})
+2024-07-05 14:56:46,888 INFO ipython frappe.get_all("Ride Booking", fields=["total_amount", "vehicle"], filters={"docstatus": 1})
+2024-07-05 14:56:46,888 INFO ipython === session end ===
+2024-07-05 15:08:17,774 INFO ipython === bench console session ===
+2024-07-05 15:08:17,774 INFO ipython frappe.get_all("Ride Booking", fields=["total_amount", "vehicle"], filters={"docstatus": 1})
+2024-07-05 15:08:17,774 INFO ipython frappe.get_all("Ride Booking", fields=["total_amount", "vehicle.make"], filters={"docstatus": 1})
+2024-07-05 15:08:17,774 INFO ipython frappe.get_all("Ride Booking", fields=["SUM(total_amount)", "vehicle.make", "COUNT(*)"], filters={"docstatus": 1}, group_by="make")
+2024-07-05 15:08:17,774 INFO ipython frappe.get_all("Ride Booking", fields=["SUM(total_amount) AS total_revenue", "vehicle.make"], filters={"docstatus": 1}, group_by="make")
+2024-07-05 15:08:17,774 INFO ipython === session end ===

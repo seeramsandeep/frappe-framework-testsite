@@ -1,0 +1,205 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_407f4faae2f63854 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _407f4faae2f63854 | /usr/bin/gzip >> ./testsite/private/backups/20240703_180001-testsite-database.sql.gz
+
+Backup Summary for testsite at 2024-07-03 18:00:01.947288
+Config  : ./testsite/private/backups/20240703_180001-testsite-site_config_backup.json 94.0B
+Database: ./testsite/private/backups/20240703_180001-testsite-database.sql.gz         221.9KiB
+Backup for Site testsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_407f4faae2f63854 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _407f4faae2f63854 | /usr/bin/gzip >> ./testsite/private/backups/20240703_180001-testsite-database.sql.gz
+
+Backup Summary for testsite at 2024-07-03 18:00:01.953432
+Config  : ./testsite/private/backups/20240703_180001-testsite-site_config_backup.json 94.0B
+Database: ./testsite/private/backups/20240703_180001-testsite-database.sql.gz         443.7KiB
+Backup for Site testsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_407f4faae2f63854 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _407f4faae2f63854 | /usr/bin/gzip >> ./testsite/private/backups/20240704_000001-testsite-database.sql.gz
+
+Backup Summary for testsite at 2024-07-04 00:00:02.124433
+Config  : ./testsite/private/backups/20240704_000001-testsite-site_config_backup.json 94.0B
+Database: ./testsite/private/backups/20240704_000001-testsite-database.sql.gz         224.5KiB
+Backup for Site testsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_407f4faae2f63854 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _407f4faae2f63854 | /usr/bin/gzip >> ./testsite/private/backups/20240704_000001-testsite-database.sql.gz
+
+Backup Summary for testsite at 2024-07-04 00:00:02.129788
+Config  : ./testsite/private/backups/20240704_000001-testsite-site_config_backup.json 94.0B
+Database: ./testsite/private/backups/20240704_000001-testsite-database.sql.gz         448.8KiB
+Backup for Site testsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_407f4faae2f63854 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _407f4faae2f63854 | /usr/bin/gzip >> ./testsite/private/backups/20240704_120001-testsite-database.sql.gz
+
+Backup Summary for testsite at 2024-07-04 12:00:01.958745
+Config  : ./testsite/private/backups/20240704_120001-testsite-site_config_backup.json 94.0B
+Database: ./testsite/private/backups/20240704_120001-testsite-database.sql.gz         230.2KiB
+Backup for Site testsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_407f4faae2f63854 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _407f4faae2f63854 | /usr/bin/gzip >> ./testsite/private/backups/20240704_120001-testsite-database.sql.gz
+
+Backup Summary for testsite at 2024-07-04 12:00:01.962450
+Config  : ./testsite/private/backups/20240704_120001-testsite-site_config_backup.json 94.0B
+Database: ./testsite/private/backups/20240704_120001-testsite-database.sql.gz         460.3KiB
+Backup for Site testsite has been successfully completed
+Traceback (most recent call last):
+  File "/home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 75, in get_app_commands
+    app_command_module = importlib.import_module(f"{app}.commands")
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named '// API Secret: 311286331bd7f5d'
+Traceback (most recent call last):
+  File "/home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 75, in get_app_commands
+    app_command_module = importlib.import_module(f"{app}.commands")
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named '// API Key: 5538b5594010f6b'
+Traceback (most recent call last):
+  File "/home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 75, in get_app_commands
+    app_command_module = importlib.import_module(f"{app}.commands")
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named '// API Secret: 311286331bd7f5d'
+Traceback (most recent call last):
+  File "/home/sandeep/Kenpath/Kenpath/frappe-bench/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 75, in get_app_commands
+    app_command_module = importlib.import_module(f"{app}.commands")
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named '// API Key: 5538b5594010f6b'
+set -o pipefail; /usr/bin/mariadb-dump --user=_407f4faae2f63854 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _407f4faae2f63854 | /usr/bin/gzip >> ./testsite/private/backups/20240704_180001-testsite-database.sql.gz
+
+Backup Summary for testsite at 2024-07-04 18:00:01.843635
+Config  : ./testsite/private/backups/20240704_180001-testsite-site_config_backup.json 187.0B
+Database: ./testsite/private/backups/20240704_180001-testsite-database.sql.gz         258.7KiB
+Backup for Site testsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_407f4faae2f63854 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _407f4faae2f63854 | /usr/bin/gzip >> ./testsite/private/backups/20240704_180001-testsite-database.sql.gz
+
+Backup Summary for testsite at 2024-07-04 18:00:01.845264
+Config  : ./testsite/private/backups/20240704_180001-testsite-site_config_backup.json 187.0B
+Database: ./testsite/private/backups/20240704_180001-testsite-database.sql.gz         517.2KiB
+Backup for Site testsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_407f4faae2f63854 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _407f4faae2f63854 | /usr/bin/gzip >> ./testsite/private/backups/20240705_000001-testsite-database.sql.gz
+
+Backup Summary for testsite at 2024-07-05 00:00:02.199628
+Config  : ./testsite/private/backups/20240705_000001-testsite-site_config_backup.json 187.0B
+Database: ./testsite/private/backups/20240705_000001-testsite-database.sql.gz         527.9KiB
+Backup for Site testsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_407f4faae2f63854 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _407f4faae2f63854 | /usr/bin/gzip >> ./testsite/private/backups/20240705_000001-testsite-database.sql.gz
+
+Backup Summary for testsite at 2024-07-05 00:00:02.222396
+Config  : ./testsite/private/backups/20240705_000001-testsite-site_config_backup.json 187.0B
+Database: ./testsite/private/backups/20240705_000001-testsite-database.sql.gz         543.7KiB
+Backup for Site testsite has been successfully completed
+Backup failed for Site testsite. Database or site_config.json may be corrupted
+Traceback with variables (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 783, in backup
+    odb = scheduled_backup(
+      context = {'sites': ['testsite'], 'force': False, 'verbose': True, 'profile': False}
+      with_files = False
+      backup_path = None
+      backup_path_db = None
+      backup_path_files = None
+      backup_path_private_files = None
+      backup_path_conf = None
+      ignore_backup_conf = False
+      verbose = True
+      compress = False
+      include = ''
+      exclude = ''
+      old_backup_metadata = False
+      scheduled_backup = <function scheduled_backup at 0x7fb18d54e8c0>
+      exit_code = 0
+      rollback_callback = None
+      site = 'testsite'
+  File "apps/frappe/frappe/utils/backups.py", line 564, in scheduled_backup
+    return new_backup(
+      older_than = 6
+      ignore_files = True
+      backup_path = None
+      backup_path_db = None
+      backup_path_files = None
+      backup_path_private_files = None
+      backup_path_conf = None
+      ignore_conf = False
+      include_doctypes = ''
+      exclude_doctypes = ''
+      compress = False
+      force = True
+      verbose = True
+      old_backup_metadata = False
+      rollback_callback = <frappe.utils.CallbackManager object at 0x7fb18c71aef0>
+  File "apps/frappe/frappe/utils/backups.py", line 600, in new_backup
+    delete_temp_backups()
+      older_than = 6
+      ignore_files = True
+      backup_path = None
+      backup_path_db = None
+      backup_path_files = None
+      backup_path_private_files = None
+      backup_path_conf = None
+      ignore_conf = False
+      include_doctypes = ''
+      exclude_doctypes = ''
+      compress = False
+      force = True
+      verbose = True
+      old_backup_metadata = False
+      rollback_callback = <frappe.utils.CallbackManager object at 0x7fb18c71aef0>
+  File "apps/frappe/frappe/utils/backups.py", line 636, in delete_temp_backups
+    os.remove(this_file_path)
+      older_than = 24
+      backup_path = './testsite/private/backups'
+      file_list = ['20240705_000001-testsite-site_config_backup.json', '20240704_120001-testsite-site_config_backup.json', '20240704_120001-testsite-database.sql.gz', '20240704_180001-testsite-site_config_backup.json', '20240705_000001-testsite-database.sql.gz', '20240704_180001-testsite-database.sql.gz', '20240704_000001-testsite-site_config_backup.json']
+      this_file = '20240704_120001-testsite-site_config_backup.json'
+      this_file_path = './testsite/private/backups/20240704_120001-testsite-site_config_backup.json'
+builtins.FileNotFoundError: [Errno 2] No such file or directory: './testsite/private/backups/20240704_120001-testsite-site_config_backup.json'
+set -o pipefail; /usr/bin/mariadb-dump --user=_407f4faae2f63854 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _407f4faae2f63854 | /usr/bin/gzip >> ./testsite/private/backups/20240705_120002-testsite-database.sql.gz
+
+Backup Summary for testsite at 2024-07-05 12:00:02.293759
+Config  : ./testsite/private/backups/20240705_120002-testsite-site_config_backup.json 187.0B
+Database: ./testsite/private/backups/20240705_120002-testsite-database.sql.gz         294.8KiB
+Backup for Site testsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_407f4faae2f63854 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _407f4faae2f63854 | /usr/bin/gzip >> ./testsite/private/backups/20240705_180002-testsite-database.sql.gz
+
+Backup Summary for testsite at 2024-07-05 18:00:02.251277
+Config  : ./testsite/private/backups/20240705_180002-testsite-site_config_backup.json 187.0B
+Database: ./testsite/private/backups/20240705_180002-testsite-database.sql.gz         581.3KiB
+Backup for Site testsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_407f4faae2f63854 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _407f4faae2f63854 | /usr/bin/gzip >> ./testsite/private/backups/20240705_180002-testsite-database.sql.gz
+
+Backup Summary for testsite at 2024-07-05 18:00:02.287070
+Config  : ./testsite/private/backups/20240705_180002-testsite-site_config_backup.json 187.0B
+Database: ./testsite/private/backups/20240705_180002-testsite-database.sql.gz         650.5KiB
+Backup for Site testsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_407f4faae2f63854 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _407f4faae2f63854 | /usr/bin/gzip >> ./testsite/private/backups/20240706_000001-testsite-database.sql.gz
+
+Backup Summary for testsite at 2024-07-06 00:00:02.153591
+Config  : ./testsite/private/backups/20240706_000001-testsite-site_config_backup.json 187.0B
+Database: ./testsite/private/backups/20240706_000001-testsite-database.sql.gz         594.3KiB
+Backup for Site testsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_407f4faae2f63854 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _407f4faae2f63854 | /usr/bin/gzip >> ./testsite/private/backups/20240706_000001-testsite-database.sql.gz
+
+Backup Summary for testsite at 2024-07-06 00:00:02.178322
+Config  : ./testsite/private/backups/20240706_000001-testsite-site_config_backup.json 187.0B
+Database: ./testsite/private/backups/20240706_000001-testsite-database.sql.gz         676.4KiB
+Backup for Site testsite has been successfully completed
