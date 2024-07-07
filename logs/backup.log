@@ -203,3 +203,72 @@ Backup Summary for testsite at 2024-07-06 00:00:02.178322
 Config  : ./testsite/private/backups/20240706_000001-testsite-site_config_backup.json 187.0B
 Database: ./testsite/private/backups/20240706_000001-testsite-database.sql.gz         676.4KiB
 Backup for Site testsite has been successfully completed
+Backup failed for Site testsite. Database or site_config.json may be corrupted
+Traceback with variables (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 783, in backup
+    odb = scheduled_backup(
+      context = {'sites': ['testsite'], 'force': False, 'verbose': True, 'profile': False}
+      with_files = False
+      backup_path = None
+      backup_path_db = None
+      backup_path_files = None
+      backup_path_private_files = None
+      backup_path_conf = None
+      ignore_backup_conf = False
+      verbose = True
+      compress = False
+      include = ''
+      exclude = ''
+      old_backup_metadata = False
+      scheduled_backup = <function scheduled_backup at 0x7f16abacc0d0>
+      exit_code = 0
+      rollback_callback = None
+      site = 'testsite'
+  File "apps/frappe/frappe/utils/backups.py", line 564, in scheduled_backup
+    return new_backup(
+      older_than = 6
+      ignore_files = True
+      backup_path = None
+      backup_path_db = None
+      backup_path_files = None
+      backup_path_private_files = None
+      backup_path_conf = None
+      ignore_conf = False
+      include_doctypes = ''
+      exclude_doctypes = ''
+      compress = False
+      force = True
+      verbose = True
+      old_backup_metadata = False
+      rollback_callback = <frappe.utils.CallbackManager object at 0x7f16aaa8bb80>
+  File "apps/frappe/frappe/utils/backups.py", line 600, in new_backup
+    delete_temp_backups()
+      older_than = 6
+      ignore_files = True
+      backup_path = None
+      backup_path_db = None
+      backup_path_files = None
+      backup_path_private_files = None
+      backup_path_conf = None
+      ignore_conf = False
+      include_doctypes = ''
+      exclude_doctypes = ''
+      compress = False
+      force = True
+      verbose = True
+      old_backup_metadata = False
+      rollback_callback = <frappe.utils.CallbackManager object at 0x7f16aaa8bb80>
+  File "apps/frappe/frappe/utils/backups.py", line 636, in delete_temp_backups
+    os.remove(this_file_path)
+      older_than = 24
+      backup_path = './testsite/private/backups'
+      file_list = ['20240706_000001-testsite-site_config_backup.json', '20240705_000001-testsite-site_config_backup.json', '20240705_120002-testsite-database.sql.gz', '20240705_180002-testsite-site_config_backup.json', '20240706_000001-testsite-database.sql.gz', '20240705_120002-testsite-site_config_backup.json', '20240705_180002-testsite-database.sql.gz']
+      this_file = '20240706_000001-testsite-site_config_backup.json'
+      this_file_path = './testsite/private/backups/20240706_000001-testsite-site_config_backup.json'
+builtins.FileNotFoundError: [Errno 2] No such file or directory: './testsite/private/backups/20240706_000001-testsite-site_config_backup.json'
+set -o pipefail; /usr/bin/mariadb-dump --user=_407f4faae2f63854 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _407f4faae2f63854 | /usr/bin/gzip >> ./testsite/private/backups/20240707_180001-testsite-database.sql.gz
+
+Backup Summary for testsite at 2024-07-07 18:00:01.512732
+Config  : ./testsite/private/backups/20240707_180001-testsite-site_config_backup.json 187.0B
+Database: ./testsite/private/backups/20240707_180001-testsite-database.sql.gz         393.2KiB
+Backup for Site testsite has been successfully completed

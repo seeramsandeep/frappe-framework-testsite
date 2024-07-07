@@ -177,3 +177,5 @@
 2024-07-07 01:42:02,758 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite --with-files
 2024-07-07 01:45:26,348 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite --with-files
 2024-07-07 01:45:50,169 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --site testsite --with-files
+2024-07-07 18:00:01,132 INFO /usr/local/bin/bench --verbose --site all backup
+2024-07-07 18:00:01,132 INFO /home/sandeep/Kenpath/Kenpath/frappe-bench/env/bin/bench --verbose --site all backup
